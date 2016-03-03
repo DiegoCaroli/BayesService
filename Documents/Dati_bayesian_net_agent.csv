@@ -1,0 +1,6 @@
+attivo;nodo;valori;padri;probability
+x;Coda;nulla:bassa:moderata:elevata;;0.25:0.25:0.25:0.25
+x;Tipologia;cittadino:hinterland:turista;;0.33:0.33:0.34
+x;Disponbilita a coda;bassa:media:alta;Tipologia;0.85:0.1:0.05:0.25:0.65:0.1:0.15:0.2:0.65	
+x;Mezzo;pullman:funicolare:scaletta;Disponbilita a coda:Coda;0.29:0.7:0.01:0.6:0.25:0.15:0.7:0.12:0.18:0.4:0.01:0.59:0.05:0.85:0.1:0.25:0.7:0.05:0.33:0.37:0.3:0.4:0.1:0.5:0:0.95:0.05:0.05:0.85:0.1:0.1:0.7:0.2:0.1:0.7:0.2	
+

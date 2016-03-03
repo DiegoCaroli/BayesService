@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5">
+
+	<display-name>Bayes Service</display-name>
+	<description>Bayes Service</description>
+	
+	<servlet>
+		<servlet-name>UploadFileServlet</servlet-name>
+		<servlet-class>com.diego.service.UploadFileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFileServlet</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListFilesServlet</servlet-name>
+		<servlet-class>com.diego.service.ListFilesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListFilesServlet</servlet-name>
+		<url-pattern>/listfiles</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreateNetServlet</servlet-name>
+		<servlet-class>com.diego.service.CreateNetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateNetServlet</servlet-name>
+		<url-pattern>/createnet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListNetsServlet</servlet-name>
+		<servlet-class>com.diego.service.ListNetsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListNetsServlet</servlet-name>
+		<url-pattern>/listnets</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>CreateClpServlet</servlet-name>
+		<servlet-class>com.diego.service.CreateClpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateClpServlet</servlet-name>
+		<url-pattern>/createclp</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

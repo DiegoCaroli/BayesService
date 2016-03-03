@@ -1,0 +1,7 @@
+attivo;nodo;valori;padri;probability
+x;Attivita fisica;400:500;;0.50:0.50
+x;Obiettivi;400:500;;0.50:0.50
+x;Autoefficacia;1:2;;0.50:0.50
+x;Obiettivi piu difficili;incremento attivita fisica;Attivita fisica:Obiettivi:Autoefficacia;1.0:1.0:1.0:1.0:1.0:1.0:1.0:1.0
+x;Stessi obiettvi;Mantenimento attivita fisica;Attivita fisica:Obiettivi:Autoefficacia;1.0:1.0:1.0:1.0:1.0:1.0:1.0:1.0
+x;Obiettivi piu facili;Diminuzione attivita fisica;Attivita fisica:Obiettivi:Autoefficacia;1.0:1.0:1.0:1.0:1.0:1.0:1.0:1.0
